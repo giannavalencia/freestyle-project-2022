@@ -47,3 +47,16 @@ TAX_RATE=0.0875
 ```
 Note that you will need to update the values of the SendGrid environment variables to meet your specific API key and email address that you created in your SendGrid account (instructions for that mentioned in the "SendGrid API Key Setup" Section)
 
+### Web Applicatiom
+
+Running the web app (then view localhost:5000 in the browser):
+
+```sh
+# Mac OS:
+FLASK_APP=web_app flask run
+
+# Windows OS:
+# ... if `export` doesn't work for you, try `set` instead
+export FLASK_APP=web_app
+flask run
+```
